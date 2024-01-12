@@ -1,0 +1,414 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.nav{
+    width: 100%;
+    height: 100px;
+    background-color: lightseagreen; 
+    float: left;
+    overflow: hidden;
+
+}
+.dp{
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    float: left;
+}
+.title{
+    float: left;
+    margin-top: 40px;
+    margin-left: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     color: rgb(22, 21, 21);
+}
+.b1{
+    float: left;
+    margin-left: 600px;
+    margin-top: 40px;
+    width: 60px;
+    height: 40px;
+    background-color: lightseagreen;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 0px;
+}
+.b1:hover{
+    background-color: lightgreen;
+    color: white;
+}
+.b2{
+    float: left;
+    margin-left: 25px;
+    margin-top: 40px;
+    width: 60px;
+    height: 40px;
+    background-color: lightseagreen;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 0px;
+    
+}
+.b2:hover{
+    background-color: lightgreen;
+    color: white;
+}
+
+.b3{
+    float: left;
+    margin-left: 25px;
+    margin-top: 40px;
+    width: 60px;
+    height: 40px;
+    background-color: lightseagreen;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 0px;
+}
+.b3:hover{
+    background-color: lightgreen;
+    color: white;
+}
+.b4{
+    float: left;
+    margin-left: 25px;
+    margin-top: 40px;
+    width: 60px;
+    height: 40px;
+    background-color: lightseagreen;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 0px;
+
+}
+.b4:hover{
+    background-color: lightgreen;
+    color: white;
+
+}
+.container{
+    width: 100%;
+    height: 1150px;
+    background-color: white;
+    float: left;
+}
+.con1{
+    width: 70%;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 70px;
+    background-color: lightseagreen;
+    float: left;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: .2s;
+
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+.photo{
+    float: left;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+.box1{
+    width: 600px;
+    height: 170px;
+    margin-left: 290px;
+    margin-top: 50px;
+    background-color: lightseagreen;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: .2s;
+}
+.box1:hover{
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+
+}
+.name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+.para1{
+    margin-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 5px;
+}
+.con2{
+    width: 300px;
+    height: 300px;
+    background-color: lightseagreen;
+    margin-left: 40px;
+    margin-top: 70px;
+    float: left;
+    transition: .2s;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.con2:hover{
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+
+}
+.name2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+    padding-top: 50px;
+    text-decoration: underline;
+
+}
+.list1{
+    margin-left: 70px;
+    padding-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.con3{
+    width: 400px;
+    height: 400px;
+    background-color: lightseagreen;
+    margin-top: 50px;
+    margin-left: 30px;
+    float: left;
+    transition: .2s;  
+    cursor: pointer; 
+    border-radius: 30px;
+}
+.con3:hover{
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+
+}
+.name3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+    padding-top: 50px;
+    text-decoration: underline;
+
+}
+.list2{
+    margin-left: 70px;
+    padding-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.con4{
+    width: 400px;
+    height: 400px;
+    background-color: lightseagreen;
+    margin-top: 50px;
+    margin-left: 45px;
+    float: left;
+    cursor: pointer;
+    transition: .2s;
+    border-radius: 30px;
+
+}
+.con4:hover{
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+}
+.name4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 70px;
+    padding-top: 50px;
+    text-decoration: underline;
+}
+.list3{
+    margin-left: 70px;
+    padding-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.con5{
+    width: 400px;
+    height: 400px;
+    background-color: lightseagreen;
+    margin-top: 50px;
+    margin-left: 45px;
+    float: left;
+    cursor: pointer;
+    transition: .2s;
+    border-radius: 30px;
+}
+.con5:hover{
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+}
+.name5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+    padding-top: 50px;
+    text-decoration: underline;
+}
+.list4{
+    margin-left: 70px;
+    padding-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.con6{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.con7{
+    width: 100%;
+    height: 330px;
+    margin-top: 130px;
+    background-color: lightseagreen;
+    float: left;
+}
+.btn1{
+    width: 40px;
+    height: 40px;
+    border: 0px;
+    border-radius: 50%;
+    margin-left: 600px;
+    float: left;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.btn2{
+    width: 40px;
+    height: 40px;
+    border: 0px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 20px;
+    float: left;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+.btn3{
+    width: 40px;
+    height: 40px;
+    border: 0px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 20px;
+    float: left;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+.log1{
+    border-radius: 100%;
+    float: left;
+    height: 40px;
+    width: 40px;
+    
+
+}
+.logo2{
+    border-radius: 50%;
+    float: left;
+    height: 40px;
+    width: 40px;
+    
+}
+.log3{
+    border-radius: 50%;
+    float: left;
+    height: 40px;
+    width: 40px;
+    
+}
+.con8{
+    background-color: lightseagreen;
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 500px;
+    height: 250px;
+}
+.end1{
+    color: white;
+    
+}
+.d1{
+    color: white;
+    margin-left: 100px;
+    margin-top: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.lo1{
+    width: 20px;
+    height: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+    float: left;
+}
+.pa1{
+    color: white;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+.lo2{
+    width: 20px;
+    height: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+    float: left;
+
+
+}
+.pa2{
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+
+}
+.lo3{
+    width: 20px;
+    height: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+    float: left;
+
+}
+.pa3{
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+
+}
+.con9{
+    width: 600px;
+    height: 100px;
+    background-color: lightseagreen;
+    margin-left: 400px;
+}
+.cpy{
+    color: white;
+    margin-top: 60px;
+
+
+}
